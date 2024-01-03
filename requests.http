@@ -3,9 +3,9 @@ GET http://localhost:3000/messages
 
 ### CREATE NEW MESSAGE
 POST http://localhost:3000/messages
-content-type: application/json
+Content-Type: application/json
 {
-    "content":  "hi there!"
+    "content":  "Fala Ai!"
 }
 
 ### GET SPECIFIC MESSAGE
